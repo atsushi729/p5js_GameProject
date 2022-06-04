@@ -408,7 +408,8 @@ function keyPressed() {
 		console.log("left arrow");
 		isLeft = true;
 	}
-	else if (keyCode == 39) {
+	
+	if (keyCode == 39) {
 		isRight = true;
 		console.log("right arrow");
 	}
